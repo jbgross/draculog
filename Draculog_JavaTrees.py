@@ -18,6 +18,7 @@ from Draculog_ModularExec import DraculogRunner
 
 class DraculogTrees:
     def __init__(self):
+	# TODO Use Python built-in logging and keep level for DEBUG for now
         logging.basicConfig(filename='app.log', filemode='w', format='%(asctime)s - %(levelname)s - %(message)s',
                             level=logging.DEBUG)
         self.BaseDirectory = "java-trees"
